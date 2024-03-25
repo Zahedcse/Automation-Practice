@@ -4,7 +4,7 @@ from selenium.webdriver.support.select import Select
 from Pages.utilities import Page
 
 
-class Login(Page):
+class Registration(Page):
     HomePage = By.XPATH("//a[normalize-space()='Home']")
     signup = By.LINK_TEXT('Signup / Login')
     new_user_signup_text = By.XPATH("//div[@class='signup-form']//h2[1]")
